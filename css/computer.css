@@ -1,0 +1,139 @@
+@import url("https://skyexplorewt.xyz/assets/css/fonts.css");
+
+/* Elements */
+
+html {
+    z-index: 0;
+    font-family: "Space Grotesk", sans-serif;
+    background-image: url("../images/cogecha-shallow-water.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    font-size: 1vw;
+}
+body {
+    margin: auto;
+    text-align: center;
+}
+a {
+    color: lightgreen;
+    font-weight: bold;
+}
+
+li {
+    text-align: left;
+    list-style-type: "- ";
+}
+
+/* IDs */
+
+#particles-js {
+    width: 100vw;
+    height: 100vw;
+    position: fixed;
+    z-index: -10;
+    top: 0;
+    left: 0;
+}
+
+/* Classes */
+
+.logo {
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5rem;
+    border: white solid 0.1rem;
+    background-image: url("../images/cogecha-re-new-memory.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+}
+.arrow {
+    height: 5rem;
+    width: 2.5rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    border: white solid 0.1rem;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(0.25rem);
+    position: fixed;
+    bottom: 2rem;
+    right: 2rem;
+    z-index: 1;
+
+}
+.arrow i {
+    border: white solid 0.1rem;
+    border-radius: 1rem;
+    z-index: 2;
+}
+.arrow a {
+    color: white;
+}
+.flag {
+    width: 3rem;
+    height: 1.8rem;
+    border-radius: 2rem;
+    border: white solid 0.1rem;
+    background-image: url("../images/tflag.png");
+    background-color: rgba(255,255,255,0.05);
+    backdrop-filter: blur(0.125rem);
+    background-size: cover;
+    position: absolute;
+    top: 2rem;
+    left: 7.3rem;
+}
+.pronouns {
+    width: 5rem;
+    height: 1.3rem;
+    border-radius: 2rem;
+    border: white solid 0.1rem;
+    background-color: black;
+    position: absolute;
+    top: 4.3rem;
+    left: 7.3rem;
+}
+.box {
+    width: 30rem;
+    border: white solid 0.1rem;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin: 3rem auto 3rem auto;
+    position: relative;
+    background-color: rgba(255,255,255,0.1);
+    backdrop-filter: blur(0.25rem);
+}
+.lanyard img {
+    width: 25rem;
+    object-fit: contain;
+    user-select: none;
+}
+.socials {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.socials li {
+    list-style-type: none;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+.socials li a {
+    color: white;
+}
+.dbg {
+    position: relative;
+    background-image: url('../images/darkbg.jpg');
+    /*opacity: 0.1;*/
+    color: white;
+}
+.dbg img {
+    opacity: 0.5;
+}
